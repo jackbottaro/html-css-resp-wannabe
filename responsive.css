@@ -1,64 +1,61 @@
-@media only screen and (max-width: 420px) {
-  .row h1 {
-    display: flex;
-    justify-content: center;
-    width: 420px;
-  }
 
-  .row h3 {
-    margin: 0;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 0;
 
-  }
-
-  #lezioni{
-    background-color: #f9f9f9;
-  }
-
-  #lezioni .row > .left,
-  #lezioni .row > .right {
-    width: 100%;
-    margin: 0 5px;
-    margin-bottom: 20px;
-
-  }
-
-  #steps{
-    background-color: white;
-  }
-
-  #steps .row .left,
-  #steps .row .central,
-  #steps .row .right {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 20px;
-    justify-content: center; 
-    align-items: center;
-    margin-bottom: 20px;
-
-  }
-
-  #why .row>.first,
-#why .row>.second,
-#why .row>.third {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 20px;
-    justify-content: center; 
-    align-items: center; 
-
-}
-
-img {
-    margin-bottom: 10px;
-  }
-
-  bcg
+	@media only screen and (max-width: 420px) {
+        /* GENERALS */
+        img {
+            margin-bottom: 10px;
+        }
+        /* TEXT SETTINGS */
+        .row h1 {
+            display: flex;
+            justify-content: center;
+            width: 420px;
+        }
+        .row h3 {
+            margin: 0;
+        }
+        /* ROW SETTINGS */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 0;
+        }
+        /* LEZIONI SECTION */
+        #lezioni {
+            background-color: #f9f9f9;
+        }
+        #lezioni .row>.left,
+        #lezioni .row>.right {
+            width: 100%;
+            margin: 0 5px;
+            margin-bottom: 20px;
+        }
+        /* STEPS SECTION */
+        #steps {
+            background-color: white;
+        }
+        #steps .row .left,
+        #steps .row .central,
+        #steps .row .right {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        /* WHY SECTION */
+        #why .row>.first,
+        #why .row>.second,
+        #why .row>.third {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    
