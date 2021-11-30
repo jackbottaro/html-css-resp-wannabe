@@ -5,19 +5,22 @@
         img {
             margin-bottom: 10px;
         }
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
         /* TEXT SETTINGS */
         .row h1 {
-            display: flex;
-            justify-content: center;
-            width: 420px;
+            width: 100%;
+            margin-bottom: 20px;
         }
         .row h3 {
             margin: 0;
         }
         /* ROW SETTINGS */
         .row {
-            display: flex;
-            flex-wrap: wrap;
             width: 100%;
             margin-top: 0;
         }
@@ -28,7 +31,7 @@
         #lezioni .row>.left,
         #lezioni .row>.right {
             width: 100%;
-            margin: 0 5px;
+            padding: 0 10px;
             margin-bottom: 20px;
         }
         /* STEPS SECTION */
@@ -38,24 +41,17 @@
         #steps .row .left,
         #steps .row .central,
         #steps .row .right {
-            display: flex;
-            flex-direction: column;
             width: 100%;
-            margin-bottom: 20px;
-            justify-content: center;
-            align-items: center;
+            padding: 0 10px;
             margin-bottom: 20px;
         }
         /* WHY SECTION */
         #why .row>.first,
         #why .row>.second,
         #why .row>.third {
-            display: flex;
-            flex-direction: column;
             width: 100%;
+            padding: 0 10px;
             margin-bottom: 20px;
-            justify-content: center;
-            align-items: center;
         }
     
     
